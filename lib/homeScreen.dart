@@ -104,8 +104,9 @@ class _HomeScreenState extends State<HomeScreen> {
                                   style: TextStyle(fontSize: 30.0),
                                 ),
                                 onPressed: () {
-                                  loadMeme();
-                                  setState(() {});
+                                  setState(() {
+                                    loadMeme();
+                                  });
                                 },
                               ),
                             ),
